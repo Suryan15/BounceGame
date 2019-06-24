@@ -1,2 +1,2 @@
 # BounceGame
-User friendly game using C/C++.
+User friendly GUI game using C.
