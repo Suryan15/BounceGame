@@ -171,10 +171,9 @@ void appendscore(char player_name[16], int score)
 
 	FILE *fp;
 	fp=fopen("HIGH.txt","a");
-		fprintf(fp,"NAME : %s\t\tSCORE : %d\n",player_name,score);
+	fprintf(fp,"NAME : %s\t\tSCORE : %d\n",player_name,score);
 	fclose(fp);
 	clrscr();
 	printf("THANK YOU");
- /// function is not implemented..@suryan...complete this function using
- /// FileIO operation in Text Mode so that everyone can view their high-score
+ 	/// FileIO operation in Text Mode so that everyone can view their high-score
 }
